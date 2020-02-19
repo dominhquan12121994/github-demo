@@ -1,0 +1,19 @@
+echo "# github-demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dominhquan12121994/github-demo.git
+git push -u origin master
+
+git remote add origin https://github.com/dominhquan12121994/github-demo.git
+git push -u origin master
+
+cac buoc: 
+1. git init: tao thu mua git trong thu muc resource
+2. git status: kiem tra trang thai git
+3. git add index.html: them index.html vao working space, chuan bi commit vao local
+4. git commit -m "commit file index.html": commit file index.html voi dong comment cho de nho
+5. git log: kiem tra log git
+6. git remote add origin http...: gan mot nhan origin de gui len http repository
+6. git push -u origin master: day nhan origin len repository voi branch la master
+7. git pull: dong bo file tu repository ve local
